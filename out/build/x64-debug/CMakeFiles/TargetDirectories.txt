@@ -1,0 +1,4 @@
+C:/Users/Bislan/Desktop/ExchangeSort/out/build/x64-debug/CMakeFiles/exchange_sort.dir
+C:/Users/Bislan/Desktop/ExchangeSort/out/build/x64-debug/CMakeFiles/exchange_sort_tests.dir
+C:/Users/Bislan/Desktop/ExchangeSort/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bislan/Desktop/ExchangeSort/out/build/x64-debug/CMakeFiles/rebuild_cache.dir

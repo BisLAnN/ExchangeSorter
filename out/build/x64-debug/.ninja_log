@@ -1,0 +1,7 @@
+# ninja log v5
+55	1615	8022779794156418	CMakeFiles/exchange_sort_tests.dir/src/ExchangeSorter.cpp.obj	5dcea8a9a7eac2b
+11	1619	8022779794136407	CMakeFiles/exchange_sort.dir/src/ExchangeSorter.cpp.obj	f9da10b3a2b49819
+34	1620	8022779794126409	CMakeFiles/exchange_sort.dir/src/main.cpp.obj	9aac78376e73b803
+77	1662	8022779794216438	CMakeFiles/exchange_sort_tests.dir/tests/mainTests.cpp.obj	63cecf654876aee8
+1621	2705	8022779804745810	exchange_sort.exe	f35b1abb0d98a296
+1662	2740	8022779805149136	exchange_sort_tests.exe	3b57b375f91b1f49
