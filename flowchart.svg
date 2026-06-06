@@ -1,94 +1,92 @@
-<svg width="680" viewBox="0 0 680 1420" xmlns="http://www.w3.org/2000/svg" style="background:#F7F4EF;font-family:Arial,sans-serif;">
+<svg width="680" viewBox="0 0 680 1700" xmlns="http://www.w3.org/2000/svg" style="font-family:Arial,sans-serif;">
 <defs>
-  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
     <path d="M2 1L8 5L2 9" fill="none" stroke="#1A1A2E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </marker>
 </defs>
 
 <!-- 1. НАЧАЛО -->
-<rect x="255" y="30" width="170" height="44" rx="22" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
-<text x="340" y="52" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#2C2C2A">Начало</text>
+<rect x="250" y="30" width="180" height="44" rx="22" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="340" y="52" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">Начало</text>
 
-<line x1="340" y1="74" x2="340" y2="108" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="74" x2="340" y2="110" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
 <!-- 2. ВВОД -->
-<polygon points="225,108 455,108 435,152 205,152" fill="none" stroke="#1A1A2E" stroke-width="1"/>
-<text x="330" y="124" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">Ввод: массив</text>
-<text x="330" y="141" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4A4A68">numbers[ ], size = n</text>
+<polygon points="210,110 470,110 450,158 190,158" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="330" y="128" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">Ввод: numbers[ ]</text>
+<text x="330" y="146" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4A4A68">size = n</text>
 
-<line x1="340" y1="152" x2="340" y2="186" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="158" x2="340" y2="210" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
 <!-- 3. i = 0 -->
-<rect x="230" y="186" width="220" height="44" rx="4" fill="#B5D4F4" stroke="#185FA5" stroke-width="1"/>
-<text x="340" y="208" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#0C447C">i = 0</text>
+<rect x="230" y="210" width="220" height="44" rx="4" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="340" y="232" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">i = 0</text>
 
-<line x1="340" y1="230" x2="340" y2="264" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="254" x2="340" y2="300" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
 <!-- 4. i < size-1? -->
-<polygon points="340,264 460,308 340,352 220,308" fill="none" stroke="#1A1A2E" stroke-width="1"/>
-<text x="340" y="302" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">i &lt; size−1?</text>
-<text x="350" y="362" text-anchor="middle" font-size="12" fill="#4A4A68">да</text>
-<text x="474" y="304" text-anchor="start" font-size="12" fill="#4A4A68">нет</text>
+<polygon points="340,300 470,348 340,396 210,348" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="340" y="342" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">i &lt; size − 1?</text>
+<text x="348" y="406" text-anchor="middle" font-size="12" fill="#4A4A68">да</text>
+<text x="478" y="344" text-anchor="start" font-size="12" fill="#4A4A68">нет</text>
 
-<line x1="340" y1="352" x2="340" y2="386" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
-<path d="M460 308 L570 308 L570 1100 L455 1100" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="396" x2="340" y2="442" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
+<path d="M470 348 L590 348 L590 1360 L450 1360" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
 <!-- 5. j = i + 1 -->
-<rect x="230" y="386" width="220" height="44" rx="4" fill="#B5D4F4" stroke="#185FA5" stroke-width="1"/>
-<text x="340" y="408" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#0C447C">j = i + 1</text>
+<rect x="230" y="442" width="220" height="44" rx="4" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="340" y="464" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">j = i + 1</text>
 
-<line x1="340" y1="430" x2="340" y2="464" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="486" x2="340" y2="532" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
 <!-- 6. j < size? -->
-<polygon points="340,464 460,508 340,552 220,508" fill="none" stroke="#1A1A2E" stroke-width="1"/>
-<text x="340" y="502" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">j &lt; size?</text>
-<text x="350" y="562" text-anchor="middle" font-size="12" fill="#4A4A68">да</text>
-<text x="154" y="504" text-anchor="middle" font-size="12" fill="#4A4A68">нет</text>
+<polygon points="340,532 470,580 340,628 210,580" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="340" y="574" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">j &lt; size?</text>
+<text x="348" y="638" text-anchor="middle" font-size="12" fill="#4A4A68">да</text>
+<text x="140" y="576" text-anchor="middle" font-size="12" fill="#4A4A68">нет</text>
 
-<line x1="340" y1="552" x2="340" y2="586" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="628" x2="340" y2="674" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
+<path d="M210 580 L90 580 L90 1200 L230 1200" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
 <!-- 7. numbers[i] > numbers[j]? -->
-<polygon points="340,586 480,638 340,690 200,638" fill="none" stroke="#1A1A2E" stroke-width="1"/>
-<text x="340" y="628" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">numbers[i] &gt;</text>
-<text x="340" y="648" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">numbers[j]?</text>
-<text x="350" y="700" text-anchor="middle" font-size="12" fill="#4A4A68">да</text>
-<text x="494" y="634" text-anchor="start" font-size="12" fill="#4A4A68">нет</text>
+<polygon points="340,674 480,730 340,786 200,730" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="340" y="722" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">numbers[i] &gt;</text>
+<text x="340" y="740" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">numbers[j]?</text>
+<text x="348" y="796" text-anchor="middle" font-size="12" fill="#4A4A68">да</text>
+<text x="488" y="726" text-anchor="start" font-size="12" fill="#4A4A68">нет</text>
 
-<line x1="340" y1="690" x2="340" y2="724" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
-<path d="M480 638 L540 638 L540 810 L450 810" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="786" x2="340" y2="832" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
+<path d="M480 730 L560 730 L560 1060 L450 1060" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
 <!-- 8. SWAP -->
-<rect x="200" y="724" width="280" height="66" rx="4" fill="#F5C4B3" stroke="#993C1D" stroke-width="1"/>
-<text x="340" y="747" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="bold" fill="#712B13">temp = numbers[i]</text>
-<text x="340" y="765" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="bold" fill="#712B13">numbers[i] = numbers[j]</text>
-<text x="340" y="783" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="bold" fill="#712B13">numbers[j] = temp</text>
+<rect x="190" y="832" width="300" height="70" rx="4" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="340" y="856" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">temp = numbers[i]</text>
+<text x="340" y="874" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">numbers[i] = numbers[j]</text>
+<text x="340" y="892" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">numbers[j] = temp</text>
 
-<line x1="340" y1="790" x2="340" y2="810" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="902" x2="340" y2="1060" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
-<!-- 9. j++ -->
-<rect x="230" y="810" width="220" height="44" rx="4" fill="#B5D4F4" stroke="#185FA5" stroke-width="1"/>
-<text x="340" y="832" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#0C447C">j = j + 1</text>
+<!-- 9. j = j + 1 -->
+<rect x="230" y="1060" width="220" height="44" rx="4" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="340" y="1082" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">j = j + 1</text>
 
-<!-- Петля j++ → j < size? -->
-<path d="M340 854 L340 910 L80 910 L80 508 L220 508" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M230 1082 L150 1082 L150 442 L230 442" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
-<!-- 10. i++ -->
-<path d="M220 508 L110 508 L110 960 L230 960" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
-<rect x="230" y="960" width="220" height="44" rx="4" fill="#B5D4F4" stroke="#185FA5" stroke-width="1"/>
-<text x="340" y="982" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#0C447C">i = i + 1</text>
+<!-- 10. i = i + 1 -->
+<rect x="230" y="1200" width="220" height="44" rx="4" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="340" y="1222" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">i = i + 1</text>
 
-<!-- Петля i++ → i < size-1? -->
-<path d="M340 1004 L340 1040 L60 1040 L60 308 L220 308" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M230 1222 L120 1222 L120 210 L230 210" fill="none" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
 <!-- 11. ВЫВОД -->
-<polygon points="205,1100 455,1100 435,1144 185,1144" fill="none" stroke="#1A1A2E" stroke-width="1"/>
-<text x="318" y="1116" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">Вывод:</text>
-<text x="318" y="1133" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4A4A68">отсортированный numbers[ ]</text>
+<polygon points="190,1360 470,1360 450,1408 170,1408" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="318" y="1378" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">Вывод:</text>
+<text x="318" y="1396" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#4A4A68">отсортированный numbers[ ]</text>
 
-<line x1="320" y1="1144" x2="320" y2="1178" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="320" y1="1408" x2="320" y2="1454" stroke="#1A1A2E" stroke-width="1" marker-end="url(#arr)"/>
 
 <!-- 12. КОНЕЦ -->
-<rect x="235" y="1178" width="170" height="44" rx="22" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="1"/>
-<text x="320" y="1200" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#2C2C2A">Конец</text>
+<rect x="230" y="1454" width="180" height="44" rx="22" fill="none" stroke="#1A1A2E" stroke-width="1"/>
+<text x="320" y="1476" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="bold" fill="#1A1A2E">Конец</text>
 
 </svg>
